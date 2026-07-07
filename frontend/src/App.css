@@ -1,0 +1,111 @@
+/* =========================================
+   React Default App Styles
+   ========================================= */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* =========================================
+   Navigation Bar Styles
+   ========================================= */
+.nav-bar {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.nav-btn:hover {
+  background-color: #0056b3;
+}
+
+/* =========================================
+   Task Table Styles
+   ========================================= */
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.task-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.completed-row {
+  background-color: #d4edda;
+}
+
+/* =========================================
+   Custom Calendar Styles
+   ========================================= */
+.task-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #dc3545; /* රතු පාට තිත */
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.react-calendar__tile {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========================================
+   Keyframes / Animations
+   ========================================= */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
