@@ -1,3 +1,4 @@
 # To-Do-List
-I create my first springboot project
-(to-do-list-rouge-phi-54.vercel.app)
+
+I created my first Spring Boot project 
+([to-do-list-rouge-phi-54.vercel.app](https://to-do-list-rouge-phi-54.vercel.app))
