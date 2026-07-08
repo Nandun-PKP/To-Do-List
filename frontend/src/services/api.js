@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8080/api";
+const API_BASE_URL = "https://to-do-list-hf00.onrender.com/api";
 
 export const getTasks = () => {
   return axios.get(`${API_BASE_URL}/gettasks`);
